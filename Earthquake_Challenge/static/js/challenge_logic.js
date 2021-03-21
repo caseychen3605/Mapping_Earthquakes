@@ -139,7 +139,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
     if (magnitude > 5) {
       return "#ea2c2c";
     }
-    if (magnitude > 4) {
+    if (magnitude > 4.5) {
       return "#ea822c";
     }
     return "#98ee00";
